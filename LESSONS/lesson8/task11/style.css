@@ -3,14 +3,15 @@
 }
 
 .rectangle {
-    height: default;
-    width: default;
+    height: auto;
+    width: auto;
     border: 2px solid black;
     padding: 50px;
 }
 
 .rectangle1 {
     background-color: blue;
+    margin: 50px;
 }
 
 .rectangle2 {
