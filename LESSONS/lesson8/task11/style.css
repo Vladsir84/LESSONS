@@ -3,8 +3,8 @@
 }
 
 .rectangle {
-    height: auto;
-    width: auto;
+    height: default;
+    width: default;
     border: 2px solid black;
     padding: 50px;
 }
