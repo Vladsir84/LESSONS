@@ -1,4 +1,4 @@
-    header {
+    .header {
         background-color: darkturquoise;
         position: fixed;
         top: 0;
@@ -6,36 +6,33 @@
         height: 40px;
     }
     
-    ul {
+    .nav-list {
         text-decoration: none;
     }
     
-    li {
+    .nav-item {
         margin: 16px;
         float: left;
         display: block;
         color: white;
     }
     
-    main {
+    .content {
         background-color: beige;
         height: 5000px;
     }
     
-    .container {
+    .head {
+        height: 200px;
+        width: 200px;
+        background-color: aquamarine;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
     
-    .one {
-        height: 200px;
-        width: 200px;
-        background-color: aquamarine;
-    }
-    
-    .two1 {
+    .eye_left {
         border-radius: 50%;
         width: 30px;
         height: 30px;
@@ -45,7 +42,7 @@
         position: absolute;
     }
     
-    .two2 {
+    .eye_right {
         border-radius: 50%;
         width: 30px;
         height: 30px;
@@ -55,7 +52,7 @@
         position: absolute;
     }
     
-    .three1 {
+    .ear_left {
         height: 60px;
         width: 40px;
         background-color: brown;
@@ -64,7 +61,7 @@
         left: -40px;
     }
     
-    .three2 {
+    .ear_right {
         height: 60px;
         width: 40px;
         background-color: brown;
