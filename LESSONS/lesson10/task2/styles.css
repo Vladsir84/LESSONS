@@ -49,11 +49,12 @@
 }
 
 .ul {
+    line-height: 40px;
     list-style-type: none;
 }
 
 .news {
-    line-height: 40px;
+    
     width: 200px;
     background-color: grey;
 }
