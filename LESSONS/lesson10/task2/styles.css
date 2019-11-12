@@ -59,5 +59,6 @@
 }
 
 .news__text {
-    align-content: center;
+     position: relative;
+    left: 35%;
 }
