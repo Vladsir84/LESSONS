@@ -4,6 +4,7 @@
         top: 0;
         width: 100%;
         height: 40px;
+        z-index: 2;    
     }
     
     .nav-list {
@@ -30,7 +31,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
+        z-index: 1;
+     }
     
     .eye_left {
         border-radius: 50%;
