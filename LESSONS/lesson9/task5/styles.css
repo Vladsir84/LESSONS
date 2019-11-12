@@ -8,14 +8,13 @@
     }
     
     .nav-list {
-        position: relative;
-        bottom: 5px;
+        position: absolute;
         list-style-type: none;
     }
     
     .nav-item {
         
-        margin: 16px;
+        margin-left: 16px;
         float: left;
         color: white;
     }
