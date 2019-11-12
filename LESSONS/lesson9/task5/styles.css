@@ -12,6 +12,8 @@
     }
     
     .nav-item {
+        position: relative;
+        top: -8px;
         margin: 16px;
         float: left;
         color: white;
