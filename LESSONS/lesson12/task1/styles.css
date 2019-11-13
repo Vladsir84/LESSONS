@@ -1,9 +1,8 @@
-html {
-    font-family: Roboto, sans-serif;
+html{
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
-
-section {
+section{
     margin: 32px;
 }
 
@@ -11,23 +10,25 @@ h1 {
     word-spacing: 20px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-p {
+p{
     line-height: 28px;
 }
 
-.technology {
+.technology{
     letter-spacing: 3px;
-    text-decoration: underline;
     font-size: 24px;
     opacity: 80%;
+    text-decoration: underline;
 }
 
-.translation {
+.translation{
     color: grey;
 }
 
-a {
+a{
     text-decoration: none;
 }
+
