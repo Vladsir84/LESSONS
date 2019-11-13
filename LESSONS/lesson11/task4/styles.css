@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    margin: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.dropdown:hover input[type="title"] {
+    display: flex;
+    left: 50px;
+}
+
+
+/* 
+input[type="title"] {
+    background: #acdacc;
+} */
