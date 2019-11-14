@@ -1,0 +1,14 @@
+html {
+    font-size: 18px;
+}
+
+.properties-list__item {
+    padding: 8px;
+}
+
+.properties-list {
+    color: #f39;
+    line-height: 32px;
+    font-size: 24px;
+    list-style-type: none;
+}
