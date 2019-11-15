@@ -1,11 +1,9 @@
-.form {
+.form{
     margin: 32px;
 }
-
-.form-control {
+.control{
     margin: 8px;
 }
-
 .languages input{
     margin-right: 5px;
 }
