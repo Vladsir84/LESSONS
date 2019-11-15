@@ -3,33 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <div class="main">
-        <form class="login__form">
-            <h1 class="form__title">Login</h1>
-            <div class="form__control">
-                <label class="form__label" for="email">Email</label>
-                <input class="form__input" type="email" id="email" name="email" placeholder="mail@gmail.com">
+    <main class="page">
+        <form class="login-form">
+            <h1 class="form-title">Login</h1>
+            <div class="form-control">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="mail@example.com" required />
             </div>
-            <div class="form__control">
-                <label class="form__label" for="username">Full Name</label>
-                <input class="form__input" type="text" id="username" name="username" required>
+            <div class="form-control">
+                <label class="form-label" for="userName">Full Name</label>
+                <input class="form-input" type="text" id="userName" name="userName" />
             </div>
-            <div class="form__control">
-                <label class="form__label" for="password">Password</label>
-                <input class="form__input" type="password" id="password" name="userName">
+            <div class="form-control">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-input" type="password" id="password" name="password" required />
             </div>
-            <div class="form__control">
-                <button class="submit__button" type="submit">Submit</button>
-            </div>
+            <button class="submit-button" type="submit">Submit</button>
         </form>
-    </div>
+    </main>
 </body>
 
 </html>
