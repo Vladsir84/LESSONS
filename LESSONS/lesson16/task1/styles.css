@@ -1,0 +1,8 @@
+.form-control,
+.choose-gender {
+    margin: 16px;
+}
+
+.choose-gender .male-checked {
+    margin-right: 5px;
+}
