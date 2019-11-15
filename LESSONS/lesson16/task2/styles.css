@@ -1,0 +1,16 @@
+.form-control,
+.choose-gender {
+    margin: 16px;
+}
+
+.choose-gender .male-name {
+    margin-left: -5px;
+}
+
+.choose-gender .female-name {
+    margin-left: -5px;
+}
+
+.choose-gender .secret-name {
+    margin-left: -5px;
+}
