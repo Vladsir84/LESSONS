@@ -19,7 +19,7 @@
 }
 
 .custom-button:hover>.bird-icon {
-    fill: red;
+    fill: green;
 }
 
 .bird-icon {
