@@ -26,9 +26,6 @@
     width: 32px;
     height: 32px;
     vertical-align: middle;
-    color: white;
+    fill: white;
 }
 
-.bird-icon:hover {
-    fill: green;
-}
