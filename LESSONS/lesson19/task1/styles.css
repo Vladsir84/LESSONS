@@ -17,11 +17,6 @@
     transition: width 1s, opacity 0.5s;
 }
 
-.rect:hover {
-    width: 100%;
-    opacity: 1;
-}
-
 .linear {
     transition-timing-function: linear;
 }
@@ -36,4 +31,9 @@
 
 .ease-out {
     transition-timing-function: ease-out;
+}
+
+.rect:hover {
+    width: 100%;
+    opacity: 1;
 }
