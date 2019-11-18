@@ -24,6 +24,12 @@
 
 @media screen and (orientation: landscape) {
     .container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .container {
         flex-direction: column;
     }
 }
