@@ -37,26 +37,20 @@ html {
     background-color: #808080;
     height: 2em;
     padding: 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .nav-list-link {
     text-decoration: none;
     color: white;
     margin-left: 0.5em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 
 @media screen and (min-width: 600px) {
-    .products {
-        display: flex;
-        flex-grow: 2;
+    .navigation {
+        
     }
 }
 
-@media screen and (min-width: 900px) {
-    .content {
-        display: flex;
-    }
-}
