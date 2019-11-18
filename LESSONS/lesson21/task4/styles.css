@@ -86,17 +86,19 @@ header {
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-decoration: none;
-    color: #fff;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    color: #fff;
+   
 }
 
 .footer {
     background-color: #e5e5e5;
     padding: 0.5em;
     display: flex;
-    margin-top: auto;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    
 }
