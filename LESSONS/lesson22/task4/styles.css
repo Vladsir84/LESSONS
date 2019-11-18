@@ -26,6 +26,7 @@ html {
 
 .navigation {
     width: 20%;
+    margin: 0.5em;
 }
 
 .nav-list {
@@ -37,6 +38,7 @@ html {
     background-color: #808080;
     height: 2em;
     padding: 0.5em;
+    margin: 0.5em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -54,9 +56,8 @@ html {
     }
 }
 
-/* @media screen and (min-width: 900px) {
-    .content {
-        display: flex;
+@media screen and (max-width: 600px) {
+    .navigation {
+        display: none;
     }
 }
- */
