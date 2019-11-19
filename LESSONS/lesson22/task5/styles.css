@@ -40,7 +40,7 @@ img {
 .navigation {
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
 .nav-list {
@@ -74,7 +74,7 @@ img {
     font-size: 1.25em;
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
 .section__header {
@@ -116,7 +116,7 @@ img {
 @media(min-width:600px) {
     .main-nav-section {
         display: flex;
-        flex-grow: 2;
+        flex-grow: 3;
     }
     .navigation {
         width: 20%;
