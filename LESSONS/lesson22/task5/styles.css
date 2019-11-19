@@ -30,7 +30,6 @@ img {
 }
 
 .navigation {
-    display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
@@ -103,7 +102,7 @@ img {
 }
 
 .footer {
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     margin-top: auto;
