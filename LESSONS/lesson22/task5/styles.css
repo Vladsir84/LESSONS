@@ -133,10 +133,11 @@ img {
     .main-nav-section {
         width: 80%;
     }
+     .section {
+        width: 60%;
+    }
     .news {
         width: 20%;
     }
-    .section {
-        width: 60%;
-    }
+   
 }
