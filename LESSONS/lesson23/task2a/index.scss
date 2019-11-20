@@ -15,13 +15,13 @@ body{
     background-color: #ff7f50;
     margin: 8px;
     
-    @include for-medium{
+    @include for-small{
         background-color: #8a2be2;
     }
-    @include for-large{
+    @include for-medium{
         background-color: #a61;
     }
-    @include for-extra-large{
+    @include for-large{
         background-color: #c47;
     }
 }
